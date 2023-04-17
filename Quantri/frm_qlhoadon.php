@@ -68,18 +68,18 @@
 				echo $trangthai;
 			?>
 		</td>
-		<form method="post" action="index.php?admin=xulyhd&madh=<?php echo $bien['IDHDB']; ?>">
-		<td style="width:70px;">
-		<select name="trangt">
-			<option value="0">Chờ xác nhận</option>
-			<option value="1">Huỷ đơn hàng</option>
-			<option value="2">Đã xác nhận</option>
-			<option value="3">Chờ lấy hàng</option>
-			<option value="4">Đang giao hàng</option>
-			<option value="5">Đã giao hàng</option>
-			<option value="6">Đã Thanh toán</option>
-		</select>
-		<a href="" style="float:left;">Xác nhận</a>
+		<form method="post">
+			<td style="width:70px;">
+			<select name="trangt">
+				<option value="0">Chờ xác nhận</option>
+				<option value="1">Huỷ đơn hàng</option>
+				<option value="2">Đã xác nhận</option>
+				<option value="3">Chờ lấy hàng</option>
+				<option value="4">Đang giao hàng</option>
+				<option value="5">Đã giao hàng</option>
+				<option value="6">Đã Thanh toán</option>
+			</select>
+			<a href="index.php?admin=xulyhd&madh=<?php echo $bien['IDHDB']; ?>" style="float:left;">Xác nhận</a>
 		</form>
         <td style="width:70px;"><a href="index.php?admin=chitiethoadon&madh=<?php echo $bien['IDHDB']; ?> " style="float:left;">Chi tiết</a>	
         </td>

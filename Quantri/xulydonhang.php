@@ -1,5 +1,10 @@
 <?php
-echo "xxxx";
+if($_GET['admin'] == "xulyhd"){
+    $mahd = $_GET['madh'];
+    $state = $_POST['trangt'];
+    echo "Trạng thái".$state;
+    echo "Mã hoá đơn".$mahd;
+}
     // include '../connet.php';
     // if($_GET['admin'] == "xulyhd"){
     //     $mahd = $_GET['madh'];

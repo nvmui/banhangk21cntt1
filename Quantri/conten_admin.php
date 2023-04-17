@@ -16,7 +16,7 @@ if(isset($_GET['admin']))
 			break;		
 		}
 		case 'xulyhd':{
-			include('./xulydonhang.php');
+			include('xulydonhang.php');
 			break;
 		}
 		default:
